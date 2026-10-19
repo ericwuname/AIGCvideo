@@ -1,0 +1,14 @@
+# 工作区内部数据（不入库）
+.workbuddy/
+
+# 大体积产物（不入库）
+work/
+probe/
+release/
+*.mp4
+*.wav
+__pycache__/
+
+# 原始资产图（613MB，不入库；压缩版在 assets_opt/）
+assets/**
+!assets/REGISTRY.md
